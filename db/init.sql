@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS productos (
     precio DECIMAL(10,2) NOT NULL,
     stock INT NOT NULL
 );
---PRUEBA DE PIPELINE
+--PRUEBA DE PIPELINE reinicio
 
 INSERT INTO productos (nombre, descripcion, precio, stock) VALUES
 ('Alimento Cachorro Premium Pipeline test', 'Sabor a pollo, razas pequenas', 19990, 15),
